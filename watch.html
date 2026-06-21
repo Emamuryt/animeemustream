@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AnimeEmu - Watch</title>
+</head>
+<body>
+
+<h2>Now Watching</h2>
+
+<video id="player" controls autoplay style="width:100%"></video>
+
+<script>
+const url = localStorage.getItem("videoUrl");
+document.getElementById("player").src = url;
+</script>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0f0f0f;
+  color: white;
+  text-align: center;
+}
+
+header {
+  padding: 20px;
+  background: #1a1a1a;
+}
+
+#animeList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 180px);
+  gap: 10px;
+  padding: 10px;
+}
+
+.card {
+  background: #222;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+button {
+  background: #ff2e63;
+  color: white;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  margin-top: 5px;
+}
